@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Xoomerang"
+             x:Class="Xoomerang.MainPage">
+
+    <AbsoluteLayout BackgroundColor="LightBlue">
+        <BoxView x:Name="Boomerang" BackgroundColor="Blue" AbsoluteLayout.LayoutBounds=".5,1,20,20" AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <BoxView x:Name="Antiboomerang" BackgroundColor="Red" AbsoluteLayout.LayoutBounds=".5,0,20,20" AbsoluteLayout.LayoutFlags="PositionProportional" />
+        <BoxView x:Name="Chmyr" BackgroundColor="DarkBlue" AbsoluteLayout.LayoutBounds=".5,.5,25,25" AbsoluteLayout.LayoutFlags="PositionProportional" />
+    </AbsoluteLayout>
+</ContentPage>
